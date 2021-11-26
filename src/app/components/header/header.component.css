@@ -1,0 +1,34 @@
+
+.header{
+    background-color: #fff;
+    padding-left: 5%;
+    padding: 1% 0 1% 5%;
+    margin-left: 0;
+    width: 100%;
+}
+.items-box{
+   color: #fff;
+}
+
+.logo span{
+    color: #FF9606;
+}
+
+.logo a{
+    text-decoration: none;
+    color: crimson;
+    font-weight: bold;
+}
+.navs a{
+    margin-right: 15px;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #FF9606;
+    transition: 1s ease-in-out;
+}
+
+.navs a:hover{
+    color: crimson;
+}
+

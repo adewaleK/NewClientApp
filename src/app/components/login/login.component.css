@@ -1,0 +1,41 @@
+.login-form{
+    display: flex;
+    flex-direction: column;
+    margin: 5% auto;
+    width: 40%;
+}
+
+.login-form h2{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.fields{
+    display: flex;
+    flex-direction: column;
+}
+
+.fields input{
+    padding: 7px;
+    margin-bottom: 10px;
+    background-color: #fff;
+    border-radius:5px;
+    outline: none;
+    border: 0;
+}
+
+input[type="submit"]{
+    background-color: #FF9606 !important;
+    border: 0;
+    outline: none;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-size: 18px;
+    transition: .8s ease-in-out;
+    color: #fff;
+    
+}
+
+input[type="submit"]:hover{
+    background-color: #e6c18d;
+}

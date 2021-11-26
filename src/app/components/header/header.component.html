@@ -1,0 +1,20 @@
+<div class="header">
+    <div class="row items-box">
+        <div class="col-md-3 logo">
+            <h2><a [routerLink]="['/home']" routerLinkActive="router-link-active">Pearl<span>Library</span></a></h2>
+        </div>
+        
+        <div class="col-md-6 navs">
+            <div class="menu-items d-flex justify-content-center">
+                <p><a [routerLink]="['/home']" routerLinkActive="router-link-active">Home</a></p>
+                <p><a [routerLink]="['/books']" routerLinkActive="router-link-active">Books</a></p>
+                <p><a [routerLink]="['/category']" routerLinkActive="router-link-active">Categories</a></p>
+            </div>
+        </div>
+        <div class="col-md-3 d-flex auth justify-content-center navs">
+            <p><a [routerLink]="['/signup']" routerLinkActive="router-link-active">Sign Up</a></p>
+            <p><a [routerLink]="['/login']" routerLinkActive="router-link-active">Sign In</a></p>
+        </div>
+    </div>
+</div>
+

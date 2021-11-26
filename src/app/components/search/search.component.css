@@ -1,0 +1,24 @@
+.search-box{
+    background-color: #FF9606;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px 0;
+    width: 100%;
+}
+
+.search-box input{
+    width: 50%;
+    padding: 10px 10px;
+    border-radius: 5px;
+    border: 0;
+    outline: none;
+}
+
+.input-box{
+    width: 50%;
+    background-color: #fff;
+    align-items: center;
+    padding-left: 15px;
+    border-radius: 7px;
+}

@@ -1,0 +1,11 @@
+<div class="books-container">
+    <div class="books-box">
+        <div class="book" *ngFor="let bk of homeBooks">
+            <a href="">
+                <img src="{{bk.img}}" alt="">
+                <h3>{{bk.title}}</h3>
+                <button>{{bk.action}}</button>
+            </a>
+        </div>
+    </div>
+</div>

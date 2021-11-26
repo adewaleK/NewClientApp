@@ -1,0 +1,40 @@
+.books-container{
+    margin: 5% 0;
+}
+
+.books-box{
+    width: 90%;
+    margin: 30px auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-left: 2%;
+}
+.book{
+    flex: 1;
+    margin: 0 10px 20px 0;
+}
+
+.book a{
+    text-decoration: none;
+    color: #000;
+}
+
+.book h3{
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.book img{
+    width: 250px;
+    height: 300px;   
+}
+
+.book button{
+    border: 0;
+    outline: none;
+    background-color: #FF9606;
+    border-radius: 10px;
+    padding: 5px 10px;
+    color: #fff;
+}

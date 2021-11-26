@@ -1,0 +1,49 @@
+/* You can add global styles to this file, and also import other style files */
+@import "~bootstrap/dist/css/bootstrap.min.css";
+@import "~font-awesome/css/font-awesome.min.css";
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.header{
+    background-color: #FF9606;
+    padding-left: 5%;
+    padding: 1% 0 1% 5%;
+    width: 100%;
+}
+.items-box{
+   color: #fff;
+}
+
+.logo span{
+    color: crimson;
+}
+
+.logo a{
+    text-decoration: none;
+    color: #fff;
+}
+.navs a{
+    margin-right: 15px;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #fff;
+}
+
+.menu-items{
+
+}
+
+.menu-items p{
+    
+}
+
+.auth{
+    
+}
+
