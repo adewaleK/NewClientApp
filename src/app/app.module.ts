@@ -16,6 +16,9 @@ import { BackgroundComponent } from './components/background/background.componen
 import { FooterComponent } from './components/footer/footer.component';
 import { TitleComponent } from './components/title/title.component';
 import { AllbooksComponent } from './components/allbooks/allbooks.component';
+import { SinglebookComponent } from './components/singlebook/singlebook.component';
+import { Singlesection1Component } from './components/singlesection1/singlesection1.component';
+import { OtherstitleComponent } from './components/otherstitle/otherstitle.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +33,10 @@ import { AllbooksComponent } from './components/allbooks/allbooks.component';
     BackgroundComponent,
     FooterComponent,
     TitleComponent,
-    AllbooksComponent
+    AllbooksComponent,
+    SinglebookComponent,
+    Singlesection1Component,
+    OtherstitleComponent
   ],
   imports: [
     BrowserModule,

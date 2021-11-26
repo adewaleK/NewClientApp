@@ -1,0 +1,18 @@
+.top-section{
+    width: 80%;
+    margin: 3% auto;
+    display: flex;
+}
+
+.img-part{
+    margin-right: 100px;
+}
+
+.description .author{
+    margin-top: -10px;
+    color: rgb(105, 96, 96);
+}
+
+.description span{
+    font-weight: bold;
+}

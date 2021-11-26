@@ -5,6 +5,7 @@ import { CategoryComponent } from "./components/category/category.component";
 import { HomeComponent } from "./components/home/home.component";
 import { LoginComponent } from "./components/login/login.component";
 import { SignupComponent } from "./components/signup/signup.component";
+import { SinglebookComponent } from "./components/singlebook/singlebook.component";
 
 export const appRoutes : Routes = [
     {path:"", component: HomeComponent},
@@ -12,6 +13,7 @@ export const appRoutes : Routes = [
     {path:"book", component: BookComponent},
     {path:"category", component: CategoryComponent},
     {path:"books", component:AllbooksComponent},
+    {path:"singlebook", component:SinglebookComponent},
     {path:"login", component: LoginComponent},
     {path:"signup", component: SignupComponent},
 ];

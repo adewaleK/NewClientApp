@@ -1,7 +1,7 @@
 <div class="books-container">
     <div class="books-box">
         <div class="book" *ngFor="let bk of homeBooks">
-            <a href="">
+            <a [routerLink]="['/singlebook']" routerLinkActive="router-link-active">
                 <img src="{{bk.img}}" alt="">
                 <h3>{{bk.title}}</h3>
                 <button>{{bk.action}}</button>

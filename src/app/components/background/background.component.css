@@ -13,8 +13,6 @@
 .items .item{
     margin-top: 12%;
     margin-right: 5%;
-    /* background-color: #bebea5; */
-    /* opacity: 0.5; */
     padding: 25px ;
     position: relative;
 }
@@ -22,7 +20,6 @@
 .item h1{
     font-size: 65px;
     color: #fff;
-    color: #000;
     margin-bottom: 20PX;
 }
 
@@ -43,11 +40,5 @@
 }
 
 @keyframes vibrate {
-    /* 0%   {background-color:red; left:0px; top:0px;}
-    25%  {background-color:yellow; left:200px; top:0px;}
-    50%  {background-color:blue; left:200px; top:200px;}
-    75%  {background-color:green; left:0px; top:200px;}
-    100% {background-color:red; left:0px; top:0px;} */
     100% {padding: 10px 25px;}
-    /* 100% {margin-top: 20px;} */
-  }
+}
